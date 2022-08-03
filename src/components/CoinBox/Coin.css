@@ -54,3 +54,13 @@
 .green{
     color: #11d811;
 }
+.coin-high24{
+    width: 150%;
+    /* border: #f00606 solid 1px; */
+    padding: 5px;    
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #fff;
+
+
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Coin.css";
 
-function Coinbox({ image, name, price, volume, pricechange, marketcap }) {
+function Coinbox({ image, name, price, volume, pricechange, marketcap,high_24h }) {
   return (
     <div className="coin-container">
       <div className="coin-row">
@@ -18,6 +18,7 @@ function Coinbox({ image, name, price, volume, pricechange, marketcap }) {
           ) : (
             <p className="coin-percent green">{pricechange.toFixed(2)}%</p>
           )}
+            <p className="coin-high24">Rs.{high_24h}</p>
           <p className="coin-marketcap">
             Mkt Cap:Rs.{marketcap }
           </p>

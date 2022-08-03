@@ -43,6 +43,7 @@ function MainComponent() {
             symbol={coin.symbol}
             marketcap={coin.market_cap}
             price={coin.current_price}
+            high_24h={coin.high_24h}
             pricechange={coin.price_change_percentage_24h}
            
           />
